@@ -1,0 +1,46 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  main .main_content .contents {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    padding: 0 0 1rem 0;
+  }
+
+  main .pres {
+    padding: 1rem 0;
+    height: 100%;
+  }
+  main .pres h1 {
+    text-align: center;
+    width: 100%;
+  }
+  main .pres a {
+    font-size: 10px;
+  }
+  main .main_content {
+    padding: 2rem;
+  }
+  main .main_content .contents {
+    margin: auto;
+    width: 100%;
+    align-content: center;
+    gap: 0;
+  }
+  main .main_content .contents .c_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .main_content .contents .c_card .c_cards_text {
+    text-align: justify;
+    margin: 0 auto;
+  }
+  main .main_content .contents .cards_start {
+    flex-direction: column-reverse;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

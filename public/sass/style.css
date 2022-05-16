@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #00004c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+main .pres {
+  background-color: #0000ff;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.4rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem 4rem;
+  height: 30vh;
+}
+
+main .pres h1 {
+  margin: 0;
+}
+
+main .pres h2 {
+  margin: 0;
+}
+
+main .pres a {
+  background-color: #ee0979;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: 1rem;
+}
+
+main .main_content {
+  padding: 2rem;
+}
+
+main .main_content .contents {
+  width: 60%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: center;
+}
+
+main .main_content .contents .c_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+main .main_content .contents .c_card .c_cards_text {
+  text-align: justify;
+  margin: auto 0;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 80%;
+  place-self: center;
+}
+
+main .main_content .contents .c_card .c_cards_text h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+main .main_content .contents .c_card img {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  border-radius: 50%;
+  width: 220px;
+  height: 220px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem 0;
+}
+/*# sourceMappingURL=style.css.map */
